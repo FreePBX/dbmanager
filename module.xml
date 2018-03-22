@@ -1,0 +1,18 @@
+
+<module>
+  <rawname>dbmanager</rawname>
+  <name>Backup Database Manager</name>
+  <version>15.0.1</version>
+  <publisher>Generated Module</publisher>
+  <license>AGPLv3</license>
+  <changelog>*15.0.1* Initial release</changelog>
+  <category>Settings</category>
+  <description>This module manages database information for internal and external backups through the backup module.</description>
+  <menuitems>
+    <dbmanager>Backup Databases</dbmanager>
+  </menuitems>
+  <depends>
+	  <version>backup ge 15.0.1</version>
+	</depends>
+  <supported>15.0</supported>
+</module>
